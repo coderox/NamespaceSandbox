@@ -160,6 +160,10 @@
       <Project>{bfcd8f26-b741-48d2-a13f-d07cafe247dd}</Project>
       <Name>CppCxComponent</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CppWinRTComponent\CppWinRTComponent.vcxproj">
+      <Project>{fd2e4d00-51fe-487a-984f-caa2c523682a}</Project>
+      <Name>CppWinRTComponent</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

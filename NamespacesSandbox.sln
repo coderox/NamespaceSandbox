@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppCxComponent", "CppCxComp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F88EA8A4-E59F-49B0-8754-C7BB7A2DBD93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppWinRTComponent", "CppWinRTComponent\CppWinRTComponent.vcxproj", "{FD2E4D00-51FE-487A-984F-CAA2C523682A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -59,6 +61,20 @@ Global
 		{F88EA8A4-E59F-49B0-8754-C7BB7A2DBD93}.Release|x86.ActiveCfg = Release|x86
 		{F88EA8A4-E59F-49B0-8754-C7BB7A2DBD93}.Release|x86.Build.0 = Release|x86
 		{F88EA8A4-E59F-49B0-8754-C7BB7A2DBD93}.Release|x86.Deploy.0 = Release|x86
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|ARM.Build.0 = Debug|ARM
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|x64.ActiveCfg = Debug|x64
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|x64.Build.0 = Debug|x64
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Debug|x86.Build.0 = Debug|Win32
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|ARM.ActiveCfg = Release|ARM
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|ARM.Build.0 = Release|ARM
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|ARM64.ActiveCfg = Release|Win32
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|x64.ActiveCfg = Release|x64
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|x64.Build.0 = Release|x64
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|x86.ActiveCfg = Release|Win32
+		{FD2E4D00-51FE-487A-984F-CAA2C523682A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

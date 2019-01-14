@@ -1,37 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using System.Diagnostics;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Client
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         public MainPage()
         {
             this.InitializeComponent();
 
-            var component = new CppCxComponent.Component();
-            Debug.WriteLine(component.Echo("world"));
+            var cxComponent = new CppCxComponent.Component();
+            Debug.WriteLine(cxComponent.Echo("world"));
 
-            var anotherComponent = new CppCxComponent.Another.Component();
-            Debug.WriteLine(anotherComponent.Echo("world"));
+            var anotherCxComponent = new CppCxComponent.Another.Component();
+            Debug.WriteLine(anotherCxComponent.Echo("world"));
+
+            var winrtComponent = new CppWinRTComponent.Component();
+            Debug.WriteLine(winrtComponent.Echo("world"));
+
+            var anotherWinRTComponent = new CppWinRTComponent.Another.Component();
+            Debug.WriteLine(anotherWinRTComponent.Echo("world"));
         }
     }
 }

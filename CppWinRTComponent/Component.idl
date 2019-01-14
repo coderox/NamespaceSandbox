@@ -1,0 +1,9 @@
+namespace CppWinRTComponent
+{
+    [default_interface]
+    runtimeclass Component
+    {
+		Component();
+        String Echo(String input);
+    }
+}

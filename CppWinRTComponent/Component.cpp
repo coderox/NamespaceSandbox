@@ -5,6 +5,6 @@ namespace winrt::CppWinRTComponent::implementation
 {
 	hstring Component::Echo(hstring const& input)
 	{
-		return L"Hello " + input;
+		return L"Hello " + _another.Echo(input);
 	}
 }

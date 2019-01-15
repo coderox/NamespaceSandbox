@@ -16,10 +16,8 @@ namespace Client
             Debug.WriteLine(anotherCxComponent.Echo("world"));
 
             var winrtComponent = new CppWinRTComponent.Component();
+            winrtComponent.Another = new CppWinRTComponent.Another.Component();
             Debug.WriteLine(winrtComponent.Echo("world"));
-
-            var anotherWinRTComponent = new CppWinRTComponent.Another.Component();
-            Debug.WriteLine(anotherWinRTComponent.Echo("world"));
         }
     }
 }

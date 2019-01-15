@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include "Component.g.h"
+#include "Another.Component.h"
 
 namespace winrt::CppWinRTComponent::implementation
 {
@@ -9,6 +10,11 @@ namespace winrt::CppWinRTComponent::implementation
 		Component() = default;
 
 		hstring Echo(hstring const& input);
+		CppWinRTComponent::Another::Component Another() { return _another; }
+		void Another(CppWinRTComponent::Another::Component const& value) { _another = value; }
+
+	private:
+		Another::Component _another;
 	};
 }
 

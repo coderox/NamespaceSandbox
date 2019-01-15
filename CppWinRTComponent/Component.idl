@@ -1,3 +1,5 @@
+import "Another.Component.idl";
+
 namespace CppWinRTComponent
 {
     [default_interface]
@@ -5,5 +7,7 @@ namespace CppWinRTComponent
     {
 		Component();
         String Echo(String input);
+
+		CppWinRTComponent.Another.Component Another{ get; set; };
     }
 }
